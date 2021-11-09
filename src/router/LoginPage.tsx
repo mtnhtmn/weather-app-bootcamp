@@ -15,9 +15,11 @@ const HomePage = () => {
                             onChange={handleChange}
                             onBlur={handleBlur}
                             value={values.email}/>
-                        <button type={'submit'}>
-                            Login
-                        </button>
+                        <div>
+                            <button type={'submit'}>
+                                Login
+                            </button>
+                        </div>
                     </form>
                 )}
             </Formik>
